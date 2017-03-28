@@ -1,0 +1,30 @@
+{
+  "name": "cloudflare-open-dyslexic-app",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "standard ./source/**/*.js || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudflareApps/OpenDyslexic.git"
+  },
+  "author": "Cloudflare Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CloudflareApps/OpenDyslexic/issues"
+  },
+  "homepage": "https://github.com/CloudflareApps/OpenDyslexic#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^9.0.2"
+  },
+  "standard": {
+    "globals": [
+      "INSTALL",
+      "INSTALL_OPTIONS",
+      "INSTALL_SCOPE",
+      "INSTALL_ID"
+    ]
+  }
+}

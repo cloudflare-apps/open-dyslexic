@@ -1,0 +1,11 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "style",
+        "src": "./source/open-dyslexic.css"
+      }
+    ]
+  },
+  "options": {}
+}
